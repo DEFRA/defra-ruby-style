@@ -9,12 +9,14 @@ require "defra/style/version"
 Gem::Specification.new do |spec|
   spec.name        = "defra-style"
   spec.version     = Defra::Style::VERSION.dup
-  spec.authors     = ["Alan Cruikshanks"]
+  spec.authors     = ["Defra"]
   spec.email       = ["alan.cruikshanks@environment-agency.gov.uk"]
   spec.license     = "The Open Government Licence (OGL) Version 3"
   spec.homepage      = "https://github.com/DEFRA/defra_style"
-  spec.summary     = "DEFRA coding standards"
-  spec.description = "DEFRA coding standards"
+  spec.summary     = "Defra ruby coding standards"
+  spec.description = "A gem to simplify the process of ensuring ruby based "\
+                     "Defra projects are using our agreed coding style and "\
+                     "standards."
   spec.license       = "The Open Government Licence (OGL) Version 3"
 
   spec.files       = `git ls-files -z`.split("\x0").reject do |f|
