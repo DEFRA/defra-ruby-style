@@ -1,6 +1,6 @@
-# defra-styles
+# Defra style
 
-This repository is used to manage the code style we use at DEFRA.
+This repository is used to manage the ruby code style we use at DEFRA.
 
 ## Installation
 
