@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/DEFRA/defra_style"
   spec.summary     = "DEFRA coding standards"
   spec.description = "DEFRA coding standards"
-  spec.license     = "No Licence"
+  spec.license       = "The Open Government Licence (OGL) Version 3"
 
   spec.files       = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
