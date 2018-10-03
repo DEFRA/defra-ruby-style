@@ -9,9 +9,10 @@ require "defra/style/version"
 Gem::Specification.new do |spec|
   spec.name        = "defra-style"
   spec.version     = Defra::Style::VERSION.dup
-  spec.authors     = ["Digital Services Team, EnvironmentAgency"]
-  spec.email       = ["dst@environment-agency.gov.uk"]
-  spec.homepage    = "https://github.com/EnvironmentAgency"
+  spec.authors     = ["Alan Cruikshanks"]
+  spec.email       = ["alan.cruikshanks@environment-agency.gov.uk"]
+  spec.license     = "The Open Government Licence (OGL) Version 3"
+  spec.homepage      = "https://github.com/DEFRA/defra_style"
   spec.summary     = "DEFRA coding standards"
   spec.description = "DEFRA coding standards"
   spec.license     = "No Licence"
