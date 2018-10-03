@@ -4,13 +4,17 @@ This repository is used to manage the ruby code style we use at DEFRA.
 
 ## Installation
 
-Add the following to your Gemfile:
+Add the following to your Gemfile
 
 ```ruby
 group :test, :development do
-  gem 'defra-style'
+  gem "defra-style",
+      git: "https://github.com/DEFRA/defra-style",
+      branch: "master"
 end
 ```
+
+And then update your dependencies by calling
 
 ```bash
 bundle install
