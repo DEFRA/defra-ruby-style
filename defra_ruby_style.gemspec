@@ -7,12 +7,12 @@ require "defra/style/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = "defra-style"
+  spec.name        = "defra_ruby_style"
   spec.version     = Defra::Style::VERSION.dup
   spec.authors     = ["Defra"]
   spec.email       = ["alan.cruikshanks@environment-agency.gov.uk"]
   spec.license     = "The Open Government Licence (OGL) Version 3"
-  spec.homepage    = "https://github.com/DEFRA/defra_style"
+  spec.homepage    = "https://github.com/DEFRA/defra-ruby-style"
   spec.summary     = "Defra ruby coding standards"
   spec.description = "A gem to simplify the process of ensuring ruby based "\
                      "Defra projects are using our agreed coding style and "\
