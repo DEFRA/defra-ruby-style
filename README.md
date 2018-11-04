@@ -1,4 +1,4 @@
-# Defra style
+# Defra ruby style
 
 This repository is used to manage the ruby code style we use at DEFRA.
 
