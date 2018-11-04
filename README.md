@@ -8,8 +8,8 @@ Add the following to your Gemfile
 
 ```ruby
 group :test, :development do
-  gem "defra-style",
-      git: "https://github.com/DEFRA/defra-style",
+  gem "defra_ruby_style",
+      git: "https://github.com/DEFRA/defra-ruby-style",
       branch: "master"
 end
 ```
@@ -26,7 +26,7 @@ Within the project's `.rubocop.yml` file add the following:
 
 ```ruby
 inherit_gem:
-  defra-style:
+  defra_ruby_style:
     - default.yml
 ```
 
