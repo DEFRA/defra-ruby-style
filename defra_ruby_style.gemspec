@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.add_dependency "rubocop", "~> 0.58.2"
+  spec.add_dependency "rubocop", ">= 0.58.2", "< 0.61.0"
   spec.add_dependency "rubocop-rspec", "~> 1.29.1"
 
   spec.add_development_dependency "bundler", "~> 1.15"
