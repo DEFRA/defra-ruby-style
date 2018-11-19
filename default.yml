@@ -9,28 +9,28 @@ AllCops:
   # investigating what the fix may be.
   DisplayStyleGuide: true
   Include:
-    - "*.gemspec"
+    - "**/*.gemspec"
     - "**/*.rake"
     - "**/*.thor"
     - "**/*.rb"
+    - "**/*.ru"
     - "**/Gemfile"
     - "**/Rakefile"
-    - "**/config.ru"
   Exclude:
     # config contains standard files created when Rails is initialised and
     # therefore they should be left as is
     - "config/**/*"
     # bin contains standard files created when Rails is initialised and
     # therefore they should be left as is
-    - "bin/*"
+    - "bin/**/*"
     # locally when we run rubocop it ignores the vendor folder but when running
     # in Travis-CI it seems to include. This will stop this from happening
     - "vendor/**/*"
     ## schema.rb is generated automatically based on migrations, so leave as is
-    - "db/schema.rb"
-    - "db/migrate*/*.rb"
+    - "**/db/schema.rb"
+    - "db/migrate*/**/*.rb"
     # Skip dummy application files as they're only used for testing purposes
-    - "spec/dummy/**/**/*"
+    - "spec/dummy/**/*"
 
 # It is our opinion that code is easier to read if a white space is
 # permitted between the initial declaration and the first statement. Ditto the
@@ -65,11 +65,11 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Exclude:
     # We're not bothered about a gemspec file having long block length
-    - "*.gemspec"
-    - "**/spec/**/*_spec.rb"
-    - "spec/shared_examples/*.rb"
-    - "**/spec/factories/**/*.rb"
-    - "**/spec/support/shared_examples/*.rb"
+    - "**/*.gemspec"
+    - "spec/**/*_spec.rb"
+    - "spec/shared_examples/**/*.rb"
+    - "spec/factories/**/*.rb"
+    - "spec/support/shared_examples/**/*.rb"
 
 # We believe the default 80 characters is too restrictive and that lines can
 # still be readable and maintainable when no more than 120 characters. This also
@@ -77,9 +77,9 @@ Metrics/BlockLength:
 Metrics/LineLength:
   Max: 120
   Exclude:
-    - "**/spec/**/*_spec.rb"
-    - "**/spec/factories/**/*.rb"
-    - "**/spec/support/shared_examples/*.rb"
+    - "spec/**/*_spec.rb"
+    - "spec/factories/**/*.rb"
+    - "spec/support/shared_examples/**/*.rb"
 
 # We wish we were good enough to remain within the rubocop limit of 10 lines
 # however we often just seem to tip over by a few lines. Hence we have chosen
@@ -91,9 +91,9 @@ Metrics/MethodLength:
 # if it doesn't make sense.
 Metrics/ModuleLength:
   Exclude:
-    - "**/spec/**/*_spec.rb"
-    - "**/spec/factories/**/*.rb"
-    - "**/spec/support/shared_examples/*.rb"
+    - "spec/**/*_spec.rb"
+    - "spec/factories/**/*.rb"
+    - "spec/support/shared_examples/**/*.rb"
 
 # As a web app, as long as the team commit to using well named classes for
 # controllers, models etc it should not be necessary to add top-level class
