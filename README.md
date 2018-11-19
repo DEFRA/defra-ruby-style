@@ -1,4 +1,4 @@
-# Defra ruby style
+<img src="/defra-ruby-style.png" alt="Defra ruby style logo" />
 
 This repository is used to manage the ruby code style we use at DEFRA.
 
@@ -22,7 +22,7 @@ bundle install
 
 ## Usage
 
-Within the project's `.rubocop.yml` file add the following:
+If your project hasn't got one, create the file `.rubocop.yml` in its root and add the following:
 
 ```ruby
 inherit_gem:
@@ -30,7 +30,7 @@ inherit_gem:
     - default.yml
 ```
 
-Now you can run `rubocop` as usual.
+If it has just replace the existing content with this. Now you can run `rubocop` as usual.
 
 ```bash
 bundle exec rubocop
