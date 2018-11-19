@@ -101,11 +101,6 @@ Metrics/ModuleLength:
 Style/Documentation:
   Enabled: false
 
-# We seem to use multi-line blocks in our specs.
-Style/BlockDelimiters:
-  Exclude:
-    - "**/spec/**/*_spec.rb"
-
 # There are no relative performance improvements using '' over "", therefore we believe there is more
 # value in using "" for all strings irrespective of whether string interpolation is used
 Style/StringLiterals:
