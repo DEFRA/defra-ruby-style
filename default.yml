@@ -110,15 +110,3 @@ Style/BlockDelimiters:
 # value in using "" for all strings irrespective of whether string interpolation is used
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-
-# There is no reason to set frozen literals within specs or factories as it will cause issues with specs
-Style/FrozenStringLiteralComment:
-  Enabled: true
-  Exclude:
-    - "spec/*_helper.rb"
-    - "spec/dummy/**/**/**/*"
-    - "spec/**/**/*_spec.rb"
-    - "spec/shared_examples/*.rb"
-    - "spec/**/support/**/*.rb"
-    - "**/spec/factories/**/*.rb"
-    - "**/spec/support/shared_examples/*.rb"
