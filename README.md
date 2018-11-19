@@ -1,10 +1,12 @@
 <img src="/defra-ruby-style.png" alt="Defra ruby style logo" />
 
+[![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=master)](https://travis-ci.com/DEFRA/defra-ruby-style)
+
 This repository is used to manage the ruby code style we use at DEFRA.
 
 ## Installation
 
-Add the following to your Gemfile
+Add the following to your `Gemfile`
 
 ```ruby
 group :test, :development do
