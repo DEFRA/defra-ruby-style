@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
                      "Defra projects are using our agreed coding style and "\
                      "standards."
 
-  s.files = Dir["{bin,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{bin,lib}/**/*", "default.yml", "LICENSE", "Rakefile", "README.md"]
   s.require_paths = ["lib"]
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
