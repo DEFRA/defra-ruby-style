@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.0.2](https://github.com/DEFRA/defra-ruby-style/tree/v0.0.2) (2019-01-08)
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.0.1...v0.0.2)
+
+**Fixed bugs:**
+
+- Fix broken gem setup [\#19](https://github.com/DEFRA/defra-ruby-style/pull/19) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.0.1](https://github.com/DEFRA/defra-ruby-style/tree/v0.0.1) (2019-01-08)
 **Implemented enhancements:**
 
