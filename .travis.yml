@@ -13,3 +13,11 @@ before_install:
 
 script:
   - bundle exec rubocop
+
+deploy:
+  provider: rubygems
+  gem: defra_ruby_style
+  on:
+    tags: true
+  api_key:
+    secure: "QLFon2vPZx+iopHsocowzONVTS9Ks2jwA54kfgkicHQNJyv8Gyb5Zer3t0WNc4d+bdVOQoFeHY/vjVh3dSEP5q+0RBbYUPbr769J6LGQrDlmmfdHtMI8rAY5+P/2qmrw2ZY7+yAelMe6pxDes3BN0Kk5lSlpaWo5GRcUgEpn9p39KtC71UWrX9/sCpgsspUgflqhhZfWI40oNf6nfxQ8y/qhsJ1pquBuY9QoKzCCdXHq7HocOgGjbjwC7iLmlNI/FEXRBLBvlZ+kSyCU4NurQ7COYU2AvQoVEb1KBCUO2xoAlId9v/Uzen46HasgeU3ot7IeXqPC+DvHA826Rvt6HyVlxG76mqcMw4/wV3C04hrUAxuV8ajmScIIXAO5SfvGs3yuJg0dRFk0C4TqqAP0vQWvZZGBP21vATVO5/SGL/KdXIzGhSVVq1eOkn401Uo/lKOoc9vsbM9H0qsujzZD34oJOQoeMf5Ims15x5XR7Gdd7h/gfyP9aWnjVpx4lCvpv/DNygeCDrrgk3/jesILNLIi3Y+bj0YLMABZSXIVH77Fxh4Jk+9mC8tqw24+FTsoJtkwC5hvZveca5KqEg2ajNdNBHC2KWwhY2W7AFfTuVh/Q1/qrCOe7g+sQoxvpFpCCuRlJy8h71UiSkRYj5OHUxxlYMVnmA493SUZPhDsjI4="

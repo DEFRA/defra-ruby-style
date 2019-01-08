@@ -10,9 +10,7 @@ Add the following to your `Gemfile`
 
 ```ruby
 group :test, :development do
-  gem "defra_ruby_style",
-      git: "https://github.com/DEFRA/defra-ruby-style",
-      branch: "master"
+  gem "defra_ruby_style"
 end
 ```
 
