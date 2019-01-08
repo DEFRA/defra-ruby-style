@@ -1,6 +1,7 @@
 <img src="/defra-ruby-style.png" alt="Defra ruby style logo" />
 
 [![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=master)](https://travis-ci.com/DEFRA/defra-ruby-style)
+[![Gem Version](https://badge.fury.io/rb/defra_ruby_style.svg)](https://badge.fury.io/rb/defra_ruby_style)
 
 This repository is used to manage the ruby code style we use at DEFRA.
 
