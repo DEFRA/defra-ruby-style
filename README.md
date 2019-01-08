@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=master)](https://travis-ci.com/DEFRA/defra-ruby-style)
 [![Gem Version](https://badge.fury.io/rb/defra_ruby_style.svg)](https://badge.fury.io/rb/defra_ruby_style)
+[![Licence](https://img.shields.io/badge/Licence-OGLv3-blue.svg)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3)
 
 This repository is used to manage the ruby code style we use at DEFRA.
 
