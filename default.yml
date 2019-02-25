@@ -14,6 +14,7 @@ AllCops:
     - "**/*.thor"
     - "**/*.rb"
     - "**/*.ru"
+    - "**/Capfile"
     - "**/Gemfile"
     - "**/Rakefile"
   Exclude:
@@ -94,6 +95,12 @@ Metrics/ModuleLength:
     - "spec/**/*_spec.rb"
     - "spec/factories/**/*.rb"
     - "spec/support/shared_examples/**/*.rb"
+
+Naming/Filename:
+  Exclude:
+    # This is the expected root filename for a capistrano project. However it
+    # breaks rubocop's filename rules hence the exclusion
+    - "**/Capfile"
 
 # As a web app, as long as the team commit to using well named classes for
 # controllers, models etc it should not be necessary to add top-level class
