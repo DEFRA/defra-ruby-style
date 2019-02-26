@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.0.3](https://github.com/DEFRA/defra-ruby-style/tree/v0.0.3) (2019-02-25)
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.0.2...v0.0.3)
+
+**Implemented enhancements:**
+
+- Add support for Capistrano Capfile [\#20](https://github.com/DEFRA/defra-ruby-style/pull/20) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.0.2](https://github.com/DEFRA/defra-ruby-style/tree/v0.0.2) (2019-01-08)
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.0.1...v0.0.2)
 
