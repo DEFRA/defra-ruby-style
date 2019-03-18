@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.1.0) (2019-03-18)
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.0.3...v0.1.0)
+
+**Implemented enhancements:**
+
+- Remove exclusion for config folder in projects [\#21](https://github.com/DEFRA/defra-ruby-style/pull/21) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.0.3](https://github.com/DEFRA/defra-ruby-style/tree/v0.0.3) (2019-02-25)
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.0.2...v0.0.3)
 
