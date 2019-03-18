@@ -18,9 +18,6 @@ AllCops:
     - "**/Gemfile"
     - "**/Rakefile"
   Exclude:
-    # config contains standard files created when Rails is initialised and
-    # therefore they should be left as is
-    - "config/**/*"
     # bin contains standard files created when Rails is initialised and
     # therefore they should be left as is
     - "bin/**/*"
