@@ -93,7 +93,7 @@ Metrics/ModuleLength:
     - "spec/factories/**/*.rb"
     - "spec/support/shared_examples/**/*.rb"
 
-Naming/Filename:
+Naming/FileName:
   Exclude:
     # This is the expected root filename for a capistrano project. However it
     # breaks rubocop's filename rules hence the exclusion
