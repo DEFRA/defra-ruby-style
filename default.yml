@@ -99,6 +99,11 @@ Naming/FileName:
     # breaks rubocop's filename rules hence the exclusion
     - "**/Capfile"
 
+# https://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Naming/MemoizedInstanceVariableName
+# We want to allow memoized instance variable names to be created with @_ and without.
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
 # As a web app, as long as the team commit to using well named classes for
 # controllers, models etc it should not be necessary to add top-level class
 # documentation.
