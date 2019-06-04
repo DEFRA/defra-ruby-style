@@ -105,6 +105,11 @@ Naming/FileName:
 Style/Documentation:
   Enabled: false
 
+# https://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Naming/MemoizedInstanceVariableName
+# We want to allow memoized instance variable names to be created with @_ and without.
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
 # There are no relative performance improvements using '' over "", therefore we believe there is more
 # value in using "" for all strings irrespective of whether string interpolation is used
 Style/StringLiterals:
