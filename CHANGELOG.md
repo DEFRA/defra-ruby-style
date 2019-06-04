@@ -1,5 +1,19 @@
 # Change Log
 
+## [v0.1.2](https://github.com/DEFRA/defra-ruby-style/tree/v0.1.2) (2019-06-04)
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.1.1...v0.1.2)
+
+**Implemented enhancements:**
+
+- Set memoized instance variable name to an optional enforced leading underscore [\#23](https://github.com/DEFRA/defra-ruby-style/pull/23) ([cintamani](https://github.com/cintamani))
+
+## [v0.1.1](https://github.com/DEFRA/defra-ruby-style/tree/v0.1.1) (2019-04-01)
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.1.0...v0.1.1)
+
+**Fixed bugs:**
+
+- Fix Naming/FileName cop entry in default.yml [\#22](https://github.com/DEFRA/defra-ruby-style/pull/22) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.1.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.1.0) (2019-03-18)
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.0.3...v0.1.0)
 
