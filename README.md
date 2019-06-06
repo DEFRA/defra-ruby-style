@@ -1,6 +1,7 @@
 <img src="/defra-ruby-style.png" alt="Defra ruby style logo" />
 
 [![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=master)](https://travis-ci.com/DEFRA/defra-ruby-style)
+[![security](https://hakiri.io/github/DEFRA/defra-ruby-style/master.svg)](https://hakiri.io/github/DEFRA/defra-ruby-style/master)
 [![Gem Version](https://badge.fury.io/rb/defra_ruby_style.svg)](https://badge.fury.io/rb/defra_ruby_style)
 [![Licence](https://img.shields.io/badge/Licence-OGLv3-blue.svg)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3)
 
