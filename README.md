@@ -1,4 +1,4 @@
-<img src="/defra-ruby-style.png" alt="Defra ruby style logo" />
+# Defra Ruby Style
 
 [![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=master)](https://travis-ci.com/DEFRA/defra-ruby-style)
 [![security](https://hakiri.io/github/DEFRA/defra-ruby-style/master.svg)](https://hakiri.io/github/DEFRA/defra-ruby-style/master)
