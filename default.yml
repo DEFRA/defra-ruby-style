@@ -40,6 +40,16 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
+# We believe the default 80 characters is too restrictive and that lines can
+# still be readable and maintainable when no more than 120 characters. This also
+# allows us to maximise our screen space.
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - "spec/**/*_spec.rb"
+    - "spec/factories/**/*.rb"
+    - "spec/support/shared_examples/**/*.rb"
+
 # It's okay to use `catch { foo }` in specs
 #
 # https://github.com/rubocop-hq/rubocop/issues/4222
@@ -66,16 +76,6 @@ Metrics/BlockLength:
     - "**/*.gemspec"
     - "spec/**/*_spec.rb"
     - "spec/shared_examples/**/*.rb"
-    - "spec/factories/**/*.rb"
-    - "spec/support/shared_examples/**/*.rb"
-
-# We believe the default 80 characters is too restrictive and that lines can
-# still be readable and maintainable when no more than 120 characters. This also
-# allows us to maximise our screen space.
-Metrics/LineLength:
-  Max: 120
-  Exclude:
-    - "spec/**/*_spec.rb"
     - "spec/factories/**/*.rb"
     - "spec/support/shared_examples/**/*.rb"
 
