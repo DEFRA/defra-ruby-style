@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
       "public gem pushes."
   end
 
-  s.add_dependency "rubocop", "~> 0.75"
+  s.add_dependency "rubocop", "~> 0.79"
 
   # Allows us to automatically generate the change log from the tags, issues,
   # labels and pull requests on GitHub. Added as a dependency so all dev's have
