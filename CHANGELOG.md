@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.2.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.2.0) (2020-04-23)
+
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.1.4...v0.2.0)
+
+**Fixed bugs:**
+
+- Fix changelog generator [\#29](https://github.com/DEFRA/defra-ruby-style/pull/29) ([Cruikshanks](https://github.com/Cruikshanks))
+
+**Merged pull requests:**
+
+- Update rubocop and enable all new cops [\#30](https://github.com/DEFRA/defra-ruby-style/pull/30) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.1.4](https://github.com/DEFRA/defra-ruby-style/tree/v0.1.4) (2020-01-29)
 
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.1.3...v0.1.4)
