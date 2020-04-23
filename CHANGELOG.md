@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.2.1](https://github.com/DEFRA/defra-ruby-style/tree/v0.2.1) (2020-04-23)
+
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.2.0...v0.2.1)
+
+**Fixed bugs:**
+
+- Fix rubocop versioning in Gemfile [\#31](https://github.com/DEFRA/defra-ruby-style/pull/31) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.2.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.2.0) (2020-04-23)
 
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.1.4...v0.2.0)
