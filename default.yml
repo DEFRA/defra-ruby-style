@@ -8,6 +8,16 @@ AllCops:
   # find it useful to go straight to the documentation for a rule when
   # investigating what the fix may be.
   DisplayStyleGuide: true
+  # Starting in 0.80 new cops are no longer enabled by default. It was noted
+  # that when ever rubocop updated and new cops were added, project builds
+  # generally always broke. To resolve this the rubocop team have decided that
+  # projects now need to specify whether new cops are disabled or enabled and if
+  # not, they will omit a warning message.
+  # Though it generally does break our builds, we want to always be using the
+  # latest conventions and will deal with build issues as they arise. So we
+  # set this flag so rubocop will just mark any new cops as enabled and saving
+  # us having to dip in each time and enable them one-by-one
+  NewCops: enable
   Include:
     - "**/*.gemspec"
     - "**/*.rake"
