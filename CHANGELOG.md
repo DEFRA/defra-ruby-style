@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.2.2](https://github.com/DEFRA/defra-ruby-style/tree/v0.2.2) (2020-06-12)
+
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.2.1...v0.2.2)
+
+**Merged pull requests:**
+
+- Exclude node\_modules from rubocop [\#32](https://github.com/DEFRA/defra-ruby-style/pull/32) ([Cruikshanks](https://github.com/Cruikshanks))
+
 ## [v0.2.1](https://github.com/DEFRA/defra-ruby-style/tree/v0.2.1) (2020-04-23)
 
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.2.0...v0.2.1)
