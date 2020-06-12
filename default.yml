@@ -37,6 +37,9 @@ AllCops:
     ## schema.rb is generated automatically based on migrations, so leave as is
     - "**/db/schema.rb"
     - "db/migrate*/**/*.rb"
+    # node_modules is generated in projects using webpacker. The .rb files it
+    # contains are generated so we want to exclude.
+    - "node_modules/**/*"
     # Skip dummy application files as they're only used for testing purposes
     - "spec/dummy/**/*"
 
