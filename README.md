@@ -1,7 +1,7 @@
 # Defra Ruby Style
 
-[![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=master)](https://travis-ci.com/DEFRA/defra-ruby-style)
-[![security](https://hakiri.io/github/DEFRA/defra-ruby-style/master.svg)](https://hakiri.io/github/DEFRA/defra-ruby-style/master)
+[![Build Status](https://travis-ci.com/DEFRA/defra-ruby-style.svg?branch=main)](https://travis-ci.com/DEFRA/defra-ruby-style)
+[![security](https://hakiri.io/github/DEFRA/defra-ruby-style/main.svg)](https://hakiri.io/github/DEFRA/defra-ruby-style/main)
 [![Gem Version](https://badge.fury.io/rb/defra_ruby_style.svg)](https://badge.fury.io/rb/defra_ruby_style)
 [![Licence](https://img.shields.io/badge/Licence-OGLv3-blue.svg)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3)
 
