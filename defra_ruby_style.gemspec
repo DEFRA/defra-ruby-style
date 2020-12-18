@@ -1,3 +1,4 @@
+# rubocop:disable Gemspec/RequiredRubyVersion
 # frozen_string_literal: true
 
 $LOAD_PATH.push File.expand_path("lib", __dir__)
@@ -41,3 +42,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency "github_changelog_generator"
   s.add_development_dependency "rake"
 end
+# rubocop:enable Gemspec/RequiredRubyVersion
