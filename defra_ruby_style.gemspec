@@ -1,4 +1,3 @@
-# rubocop:disable Gemspec/RequiredRubyVersion
 # frozen_string_literal: true
 
 $LOAD_PATH.push File.expand_path("lib", __dir__)
@@ -16,8 +15,8 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/DEFRA/defra-ruby-style"
   s.summary     = "Defra ruby coding standards"
   s.description = "A gem to simplify the process of ensuring ruby based "\
-                     "Defra projects are using our agreed coding style and "\
-                     "standards."
+                  "Defra projects are using our agreed coding style and "\
+                  "standards."
 
   s.files = Dir["{bin,lib}/**/*", "default.yml", "LICENSE", "Rakefile", "README.md"]
   s.require_paths = ["lib"]
@@ -28,10 +27,10 @@ Gem::Specification.new do |s|
     s.metadata["allowed_push_host"] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
+          "public gem pushes."
   end
 
-  s.add_dependency "rubocop", ">= 0.82", "< 2.0"
+  s.add_dependency "rubocop", ">= 1.0", "< 2.0"
 
   # Allows us to automatically generate the change log from the tags, issues,
   # labels and pull requests on GitHub. Added as a dependency so all dev's have
@@ -41,5 +40,6 @@ Gem::Specification.new do |s|
   # https://github.com/skywinder/github-changelog-generator#github-token
   s.add_development_dependency "github_changelog_generator"
   s.add_development_dependency "rake"
+  s.metadata["rubygems_mfa_required"] = "true"
+  s.required_ruby_version = ">= 3.1"
 end
-# rubocop:enable Gemspec/RequiredRubyVersion
