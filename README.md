@@ -1,7 +1,6 @@
 # Defra Ruby Style
 
 ![Build Status](https://github.com/DEFRA/defra-ruby-style/workflows/CI/badge.svg?branch=main)
-[![security](https://hakiri.io/github/DEFRA/defra-ruby-style/main.svg)](https://hakiri.io/github/DEFRA/defra-ruby-style/main)
 [![Gem Version](https://badge.fury.io/rb/defra_ruby_style.svg)](https://badge.fury.io/rb/defra_ruby_style)
 [![Licence](https://img.shields.io/badge/Licence-OGLv3-blue.svg)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3)
 
