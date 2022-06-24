@@ -129,4 +129,4 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Style/HashSyntax:
-  Enabled: false
+  EnforcedShorthandSyntax: either
