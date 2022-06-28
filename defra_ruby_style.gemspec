@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.license     = "The Open Government Licence (OGL) Version 3"
   s.homepage    = "https://github.com/DEFRA/defra-ruby-style"
   s.summary     = "Defra ruby coding standards"
-  s.description = "A gem to simplify the process of ensuring ruby based "\
-                  "Defra projects are using our agreed coding style and "\
+  s.description = "A gem to simplify the process of ensuring ruby based " \
+                  "Defra projects are using our agreed coding style and " \
                   "standards."
 
   s.files = Dir["{bin,lib}/**/*", "default.yml", "LICENSE", "Rakefile", "README.md"]
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   # New dev's should first create GitHub personal app token and add it to their
   # ~/.bash_profile (or equivalent)
   # https://github.com/skywinder/github-changelog-generator#github-token
-  s.add_development_dependency "github_changelog_generator"
+  s.add_development_dependency "github_changelog_generator", ">= 1.15", "< 1.16"
   s.add_development_dependency "rake"
   s.metadata["rubygems_mfa_required"] = "true"
   s.required_ruby_version = ">= 3.1"
