@@ -1,5 +1,5 @@
 AllCops:
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 3.1.2
   # Cop names are not displayed in offense messages by default. We find it
   # useful to include this information so we can use it to investigate what the
   # fix may be.
@@ -127,3 +127,6 @@ Style/Documentation:
 # value in using "" for all strings irrespective of whether string interpolation is used
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: either
