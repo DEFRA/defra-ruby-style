@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   # New dev's should first create GitHub personal app token and add it to their
   # ~/.bash_profile (or equivalent)
   # https://github.com/skywinder/github-changelog-generator#github-token
-  s.add_development_dependency "github_changelog_generator"
+  s.add_development_dependency "github_changelog_generator", ">= 1.15", "< 1.16"
   s.add_development_dependency "rake"
   s.metadata["rubygems_mfa_required"] = "true"
   s.required_ruby_version = ">= 3.1"
