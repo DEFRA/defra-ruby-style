@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.3.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.3.0) (2022-06-28)
+
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.2.2...v0.3.0)
+
+**Merged pull requests:**
+
+- regress changelog to 1.15.x [\#37](https://github.com/DEFRA/defra-ruby-style/pull/37) ([d-a-v-e](https://github.com/d-a-v-e))
+- \[1910\] upgrades ruby to 3.1.2 [\#36](https://github.com/DEFRA/defra-ruby-style/pull/36) ([d-a-v-e](https://github.com/d-a-v-e))
+- Switch from Travis CI to GitHub Actions [\#35](https://github.com/DEFRA/defra-ruby-style/pull/35) ([irisfaraway](https://github.com/irisfaraway))
+- Create Dependabot config file [\#34](https://github.com/DEFRA/defra-ruby-style/pull/34) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Update rubocop requirement from ~\> 0.82 to \>= 0.82, \< 2.0 [\#33](https://github.com/DEFRA/defra-ruby-style/pull/33) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v0.2.2](https://github.com/DEFRA/defra-ruby-style/tree/v0.2.2) (2020-06-12)
 
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.2.1...v0.2.2)
