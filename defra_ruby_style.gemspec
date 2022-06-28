@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.license     = "The Open Government Licence (OGL) Version 3"
   s.homepage    = "https://github.com/DEFRA/defra-ruby-style"
   s.summary     = "Defra ruby coding standards"
-  s.description = "A gem to simplify the process of ensuring ruby based "\
-                  "Defra projects are using our agreed coding style and "\
+  s.description = "A gem to simplify the process of ensuring ruby based " \
+                  "Defra projects are using our agreed coding style and " \
                   "standards."
 
   s.files = Dir["{bin,lib}/**/*", "default.yml", "LICENSE", "Rakefile", "README.md"]
