@@ -31,6 +31,9 @@ Gem::Specification.new do |s|
   end
 
   s.add_dependency "rubocop", ">= 1.0", "< 2.0"
+  s.add_dependency "rubocop-factory_bot"
+  s.add_dependency "rubocop-rake"
+  s.add_dependency "rubocop-rspec"
 
   # Allows us to automatically generate the change log from the tags, issues,
   # labels and pull requests on GitHub. Added as a dependency so all dev's have
@@ -38,8 +41,6 @@ Gem::Specification.new do |s|
   # New dev's should first create GitHub personal app token and add it to their
   # ~/.bash_profile (or equivalent)
   # https://github.com/skywinder/github-changelog-generator#github-token
-  s.add_development_dependency "github_changelog_generator", ">= 1.15", "< 1.17"
-  s.add_development_dependency "rake"
   s.metadata["rubygems_mfa_required"] = "true"
-  s.required_ruby_version = ">= 3.1"
+  s.required_ruby_version = ">= 3.2"
 end
