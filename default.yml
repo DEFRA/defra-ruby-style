@@ -1,5 +1,10 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-factory_bot
+
 AllCops:
-  TargetRubyVersion: 3.1.2
+  TargetRubyVersion: 3.2.2
   # Cop names are not displayed in offense messages by default. We find it
   # useful to include this information so we can use it to investigate what the
   # fix may be.
@@ -130,3 +135,8 @@ Style/StringLiterals:
 
 Style/HashSyntax:
   EnforcedShorthandSyntax: either
+
+# We believe that the default of 3 is too low and that it is okay to have
+# it slightly bigger
+RSpec/NestedGroups:
+  Max: 4
