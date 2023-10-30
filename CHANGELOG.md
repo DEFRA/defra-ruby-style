@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.3.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.3.0) (2023-10-30)
+
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.3.0...v0.3.0)
+
+**Implemented enhancements:**
+
+- upgrading ruby version to 3.2 and enabling additional cops [\#39](https://github.com/DEFRA/defra-ruby-style/pull/39) ([brujeo](https://github.com/brujeo))
+
+**Merged pull requests:**
+
+- Update github\_changelog\_generator requirement from \>= 1.15, \< 1.16 to \>= 1.15, \< 1.17 [\#38](https://github.com/DEFRA/defra-ruby-style/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v0.3.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.3.0) (2022-06-28)
 
 [Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.2.2...v0.3.0)
