@@ -135,3 +135,8 @@ Style/StringLiterals:
 
 Style/HashSyntax:
   EnforcedShorthandSyntax: either
+
+# We believe that the default of 3 is too low and that it is okay to have
+# it slightly bigger
+RSpec/NestedGroups:
+  Max: 4
