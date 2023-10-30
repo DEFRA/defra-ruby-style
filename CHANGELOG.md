@@ -1,8 +1,8 @@
 # Changelog
 
-## [v0.3.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.3.0) (2023-10-30)
+## [v0.4.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.4.0) (2023-10-30)
 
-[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.3.0...v0.3.0)
+[Full Changelog](https://github.com/DEFRA/defra-ruby-style/compare/v0.3.0...v0.4.0)
 
 **Implemented enhancements:**
 
@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG [\#40](https://github.com/DEFRA/defra-ruby-style/pull/40) ([brujeo](https://github.com/brujeo))
 - Update github\_changelog\_generator requirement from \>= 1.15, \< 1.16 to \>= 1.15, \< 1.17 [\#38](https://github.com/DEFRA/defra-ruby-style/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.3.0](https://github.com/DEFRA/defra-ruby-style/tree/v0.3.0) (2022-06-28)
