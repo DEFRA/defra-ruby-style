@@ -29,18 +29,11 @@ Gem::Specification.new do |s|
     raise "RubyGems 2.0 or newer is required to protect against " \
           "public gem pushes."
   end
+  s.metadata["rubygems_mfa_required"] = "true"
+  s.required_ruby_version = ">= 3.2"
 
   s.add_dependency "rubocop", ">= 1.0", "< 2.0"
   s.add_dependency "rubocop-factory_bot"
   s.add_dependency "rubocop-rake"
   s.add_dependency "rubocop-rspec"
-
-  # Allows us to automatically generate the change log from the tags, issues,
-  # labels and pull requests on GitHub. Added as a dependency so all dev's have
-  # access to it to generate a log, and so they are using the same version.
-  # New dev's should first create GitHub personal app token and add it to their
-  # ~/.bash_profile (or equivalent)
-  # https://github.com/skywinder/github-changelog-generator#github-token
-  s.metadata["rubygems_mfa_required"] = "true"
-  s.required_ruby_version = ">= 3.2"
 end
