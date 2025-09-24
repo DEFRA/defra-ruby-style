@@ -69,3 +69,6 @@ Gemfile.lock
 
 # Ignore rvm gemset file
 .ruby-gemset
+
+# Ignore local gem builds
+/*.gem

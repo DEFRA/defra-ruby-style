@@ -31,9 +31,4 @@ Gem::Specification.new do |s|
   end
   s.metadata["rubygems_mfa_required"] = "true"
   s.required_ruby_version = ">= 3.2"
-
-  s.add_dependency "rubocop", ">= 1.0", "< 2.0"
-  s.add_dependency "rubocop-factory_bot"
-  s.add_dependency "rubocop-rake"
-  s.add_dependency "rubocop-rspec"
 end
